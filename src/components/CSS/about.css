@@ -1,0 +1,26 @@
+span {
+  color: red;
+}
+button {
+	padding: 8px 28px;
+	color: white;
+	text-decoration: none;
+	border: 1px solid black;
+	background-color: red;
+	border-radius: 18px;
+}
+button:hover {
+  background-color: white;
+  border-color: red;
+  color: red;
+}
+.slide1 {
+  padding-bottom: 30%;
+}
+.slide1 h1 {
+	color: black;
+}
+.slide1 p {
+	color: black;
+	font-size: 20px;
+}

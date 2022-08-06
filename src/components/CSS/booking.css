@@ -1,0 +1,41 @@
+.review2 {
+	margin-left: 115px;
+}
+
+.review3 {
+	width: 25%;
+	display: inline-block;
+	height: 100%;
+	padding: 40px;
+	color: black;
+	margin-left: 45px;
+	margin-bottom: 55px;
+	box-shadow: 5px 5px 5px 5px  lightgray;
+	
+}
+.review3 p {
+	font-size: 18px;
+}
+.review3:hover {
+  background-color: red;
+  color: white;
+}
+.images {
+	display: inline-block;
+	width: 100%;
+	margin-top: 10px;
+	margin-left: 45px;
+	animation: web 42s linear infinite;
+	
+}
+.images img {
+	width: 160px;
+	padding-left: 30px;
+}
+
+@keyframes web {
+	0%{transform: translateX(-90px);
+		
+	}
+	100%{transform: translateX(1260px);}
+}
